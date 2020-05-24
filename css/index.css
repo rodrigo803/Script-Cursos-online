@@ -1,0 +1,192 @@
+/*esta pagina esta en face beta con cambios constantes*/
+
+
+/*By Rodrigo*/
+
+body {
+    background: #292727;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Ajustes del Menu*/
+
+ul.horizontal li {
+    float: left;
+    padding: 0 10px;
+    display: block;
+}
+
+.menu {
+    height: auto;
+    /*Junto a overflow: hidden; aplicará a nuestro elemento nav el mismo alto que el más alto de sus elementos hijos */
+    margin: 0 auto;
+    /* Centro el contenedor */
+    overflow: hidden;
+    text-align: left;
+    max-width: 100%;
+    min-width: 300px;
+    /* Defino el ancho de mi página */
+}
+
+ul.horizontal {
+    position: relative;
+    bottom: 40px;
+    float: left;
+    list-style-type: none;
+    /* Elimino los estilos de lista */
+    padding: 0;
+}
+
+ul.horizontal li {
+    float: left;
+    /* Floto los li para que se dispongan horizontalmente */
+    padding: 10px;
+    border-left: 1px solid rgb(219, 133, 21);
+    border-right: 1px solid rgb(219, 133, 21);
+}
+
+ul.horizontal li a:hover {
+    color: white;
+}
+
+ul.horizontal li:hover {
+    background: rgb(219, 133, 21);
+    border-left: 1px solid rgb(255, 255, 255);
+    border-right: 1px solid rgb(255, 255, 255);
+}
+
+ul.horizontal li a {
+    padding: 10px;
+    /* El padding añadirá separación entre los elementos */
+}
+
+ul.horizontal {
+    float: left;
+    list-style-type: none;
+    padding: 0;
+    /* AÑADIMOS */
+    position: relative;
+    left: 50%;
+}
+
+ul.horizontal li {
+    float: left;
+    /* AÑADIMOS */
+    position: relative;
+    right: 50%;
+}
+
+.horizontal a:hover {}
+
+.logo {
+    position: relative;
+    right: 100px;
+    bottom: 40px;
+    display: flex;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+
+/*ajustes de los iconos*/
+
+.icon-folder-open {
+    margin-right: 5px;
+}
+
+.icon-home {
+    margin-right: 5px;
+}
+
+.icon-images {
+    margin-right: 5px;
+}
+
+.icon-indent-increase {
+    margin-right: 5px;
+}
+
+.icon-users {
+    margin-right: 5px;
+}
+
+.icon-video-camera {
+    margin-right: 5px;
+}
+
+
+/*ajustes de novedades*/
+
+h1 {
+    margin: auto;
+    text-align: center;
+    color: rgb(219, 133, 21);
+}
+
+.new {
+    margin-right: 5px;
+}
+
+#main-container {
+    max-width: 100%;
+    min-width: 50%;
+}
+
+.seccion1 {
+    z-index: 1;
+    background: #292727;
+    width: 250px;
+    height: 150px;
+    border: 3px solid rgb(219, 133, 21);
+    text-align: center;
+    margin: 10px;
+    float: left;
+    border-radius: 35px 0px 35px 0px;
+    -moz-border-radius: 35px 0px 35px 0px;
+    -webkit-border-radius: 35px 0px 35px 0px;
+}
+
+.text {
+    position: relative;
+    font-family: myfirstfont_2;
+    bottom: 15px;
+    color: rgb(219, 133, 21);
+}
+
+.text:hover {
+    color: white;
+}
+
+.pict {
+    border-radius: 35px 0px 0px 0px;
+    -moz-border-radius: 35px 0px 0px 0px;
+    -webkit-border-radius: 35px 0px 0px 0px;
+}
+
+.pict:hover {
+    filter: opacity(.5);
+}
+
+
+/*importante config*/
+
+.importante {
+    width: auto;
+    float: left;
+    height: auto;
+    border: 2px solid rgb(219, 133, 21);
+    margin: 50px;
+    padding: 10px;
+    text-align: center;
+    font-family: myfirstfont_2;
+    color: rgb(219, 133, 21);
+}
+
+.inf {
+    margin-right: 5px;
+}
+
+
+/*config footer*/
